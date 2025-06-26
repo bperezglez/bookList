@@ -12,7 +12,6 @@ function UI() {}
 // Add book to list
 UI.prototype.addBookToList = function(book){
   const list = document.getElementById('book-list');
-  //Create tr
   const row = document.createElement('tr');
 
   // Insert cols
@@ -27,9 +26,9 @@ UI.prototype.addBookToList = function(book){
 
 // Clear fields
 UI.prototype.clearFields = function(){
-  document.getElementById('title').value = '';
-  document.getElementById('author').value = '';
-  document.getElementById('isbn').value = '';
+  document.getElementById('title').value = ''
+  document.getElementById('author').value = ''
+  document.getElementById('isbn').value = ''
 }
 
 // Show alert
